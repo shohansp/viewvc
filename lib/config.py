@@ -402,12 +402,12 @@ class Config:
     self.utilities.cvsgraph = ''
 
     self.options.root_as_url_component = 1
-    self.options.checkout_magic = 0
     self.options.allowed_views = ['annotate', 'diff', 'markup', 'roots']
     self.options.authorizer = None
     self.options.mangle_email_addresses = 0
     self.options.custom_log_formatting = []
     self.options.default_file_view = "log"
+    self.options.hide_binary_content = 1
     self.options.binary_mime_types = []
     self.options.dir_ignored_files = []
     self.options.http_expiration_time = 600
